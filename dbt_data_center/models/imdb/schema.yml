@@ -1,0 +1,32 @@
+version: 2
+sources:
+- name: data_center
+  tables:
+  - name: data_center_raw__stream_imdb_actors
+    meta:
+      dagster:
+        asset_key: ["imdb_actors"]
+  - name: data_center_raw__stream_imdb_directors
+    meta:
+      dagster:
+        asset_key: ["imdb_directors"]
+  - name: data_center_raw__stream_imdb_directors_genres
+    meta:
+      dagster:
+        asset_key: ["imdb_directors_genres"]
+  - name: data_center_raw__stream_imdb_movies          
+    meta:
+      dagster:
+        asset_key: ["imdb_movies"]
+  - name: data_center_raw__stream_imdb_movies_directors
+    meta:
+      dagster:
+        asset_key: ["imdb_movies_directors"]
+  - name: data_center_raw__stream_imdb_movies_genres   
+    meta:
+      dagster:
+        asset_key: ["imdb_movies_genres"]
+  - name: data_center_raw__stream_imdb_roles
+    meta:
+      dagster:
+        asset_key: ["imdb_roles"]  
