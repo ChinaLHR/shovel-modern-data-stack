@@ -1,2 +1,2 @@
-# shovel-progressive-delivery-argo-rollouts
-基于dbt、Airbyte、Dagster的开源现代数据栈实践
+# shovel-modern-data-stack
+基于Dagster、dbt、Airbyte的开源现代数据栈实践
